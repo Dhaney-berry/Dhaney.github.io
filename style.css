@@ -9,15 +9,15 @@ html{
 }
 
 @keyframes fade {
-  from {background-color: #e0ffff;}
-  to {background-color: #6699ff;}
+	from {background-color: #e0ffff;}
+	to {background-color: #6699ff;}
 }
 body{
-	 animation: text 15s ease;
-    color: #c4f5fa;
+	animation: text 15s ease;
+	color: #c4f5fa;
 }
 @keyframes text {
 	from{color: #424aa8;}
-    to{color: #c4f5fa;}
+	to{color: #c4f5fa;}
 }
 
