@@ -1,10 +1,8 @@
 #tip-calculator input[type="radio"] {
   display: block;
 }
-#tip-calculator {
+#tip-form {
   background-image: radial-gradient( #0047AB, #6495ED, #A1CAF1);
-}
-#tip-calculator label {
   display: inline-block;
   width: 20%;
   height: 40px;
