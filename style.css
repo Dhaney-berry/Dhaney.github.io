@@ -1,7 +1,5 @@
- #results {
-         display:none;
-       }
-```css
+ #results {display:block;}
+
 /* Define the colors for each scale value */
 :root {
   --scale-1-color: hsl(0, 100%, 50%);
