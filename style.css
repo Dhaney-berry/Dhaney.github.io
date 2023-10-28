@@ -10,7 +10,7 @@ html{
 	from {background-color: #e0ffff;}
 	to {background-color: #6699ff;}
 }
-body{
+.card{
 	animation: text 15s ease;
 	background-color: #33339981;
 	backdrop-effect: blur;
