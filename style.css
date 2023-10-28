@@ -1,3 +1,64 @@
  #results {
          display:none;
        }
+```css
+/* Define the colors for each scale value */
+:root {
+  --scale-1-color: hsl(0, 100%, 50%);
+  --scale-2-color: hsl(60, 100%, 50%);
+  --scale-3-color: hsl(120, 100%, 50%);
+  --scale-4-color: hsl(180, 100%, 50%);
+  --scale-5-color: hsl(240, 100%, 50%);
+}
+
+/* Use a custom property to store the current scale value */
+#tip-calculator {
+  --scale-value: 1;
+}
+
+/* Use the calc() function to change the background color based on the scale value */
+#tip-calculator {
+  background-color: hsl(
+    calc(var(--scale-value) * 60),
+    calc(var(--scale-value) * 20%),
+    calc(50% - var(--scale-value) * 5%)
+  );
+}
+
+/* Use a radio button group to create the scale */
+#tip-calculator input[type="radio"] {
+  display: none;
+}
+
+#tip-calculator label {
+  display: inline-block;
+  width: 20%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* Use the checked pseudo-class to update the scale value and the label style */
+#tip-calculator input[type="radio"]:checked + label {
+  font-weight: bold;
+}
+
+#tip-calculator input[value="1"]:checked {
+  --scale-value: 1;
+}
+
+#tip-calculator input[value="2"]:checked {
+  --scale-value: 2;
+}
+
+#tip-calculator input[value="3"]:checked {
+  --scale-value: 3;
+}
+
+#tip-calculator input[value="4"]:checked {
+  --scale-value: 4;
+}
+
+#tip-calculator input[value="5"]:checked {
+  --scale-value: 5;
+}
