@@ -1,7 +1,5 @@
 #results{
     display: block;
-    background-color: #33339981;
-    backdrop-effect: blur;
 }
 html{
   background: #6699ff;
@@ -13,12 +11,13 @@ html{
 	to {background-color: #6699ff;}
 }
 body{
-	padding: 25%;
 	animation: text 15s ease;
+	background-color: #33339981;
+	backdrop-effect: blur;
 	color: #c4f5fa;
 }
 @keyframes text {
-	from{color: #424aa8;}
-	to{color: #c4f5fa;}
+	from {color: #424aa8;}
+	to {color: #c4f5fa;}
 }
 
