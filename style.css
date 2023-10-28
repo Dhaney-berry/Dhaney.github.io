@@ -1,13 +1,10 @@
-.tip-calculator input[type="radio"] {
-  display: block;
+html {
+  background: #;
+  animation: mymove 10s;
 }
-.tip-form {
-  background-image: radial-gradient( #0047AB, #6495ED, #A1CAF1);
-  display: inline-block;
-  width: 20%;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
+@keyframes mymove {
+  from {background-color: #e0ffff;}
+  to {background-color: #6699ff;}
 }
 
 
