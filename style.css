@@ -1,7 +1,7 @@
 #results{
     display: block;
 }
-html{
+.bg-dark{
   background: #6699ff;
   animation: fade 15s ease;
 }
