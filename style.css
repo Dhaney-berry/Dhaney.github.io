@@ -13,6 +13,7 @@ html{
 	to {background-color: #6699ff;}
 }
 body{
+	padding: 25%;
 	animation: text 15s ease;
 	color: #c4f5fa;
 }
