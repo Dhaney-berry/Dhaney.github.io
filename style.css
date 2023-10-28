@@ -5,16 +5,18 @@ html{
   background: #6699ff;
   animation: fade 15s ease;
 }
-
 @keyframes fade {
 	from {background-color: #e0ffff;}
 	to {background-color: #6699ff;}
 }
-.card{
+body{
 	animation: text 15s ease;
+	font-color: #c4f5fa;
+	font: 'Arial';
+}
+.card{
 	background-color: #33339981;
 	backdrop-effect: blur;
-	color: #c4f5fa;
 }
 @keyframes text {
 	from {color: #424aa8;}
